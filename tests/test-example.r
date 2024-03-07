@@ -14,7 +14,7 @@ test_that("Check the number of observations", {
   expect_equal(n_obs, 1704)
 })
 
-expect_unique(data = data, year)
+expect_unique(data = data, c(year, country))
 
 expect_range(data = data, gdpPercap, 0, 1e6)
 
