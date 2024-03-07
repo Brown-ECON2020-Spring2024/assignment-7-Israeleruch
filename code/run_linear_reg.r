@@ -1,5 +1,6 @@
 library(data.table)
 library(estimatr)
+library(testdat)
 
 data <- fread("./output/data/gapminder.csv")
 
